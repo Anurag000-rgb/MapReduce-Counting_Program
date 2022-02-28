@@ -16,5 +16,5 @@ MapReduce Code for Counting the numbers in JAVA Basically in this project But it
 In Scala It Just One Line =>
 # Just Import Scala Context By SC
 ```
-scala: sc.textFile('YOUR HDFS FILE LOCATION').map(input -> input.split(" ")).flatmap(input -> input).countByValue;
+scala: sc.textFile('YOUR HDFS FILE LOCATION').map(input => input.split(" ")).flatmap(input => input).countByValue;
 ```
